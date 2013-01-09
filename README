@@ -1,1 +1,4 @@
 ZooKeeper demo based on http://zookeeper.apache.org/doc/trunk/zookeeperStarted.html#sc_FileManagement
+
+sbt
+> run-main com.honnix.Executor localhost:2181 /zk_test file.txt ls
